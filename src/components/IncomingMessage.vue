@@ -1,5 +1,5 @@
 <template>
-	<transition name="slide-fade" mode="out-in" :duration="{ enter: 1000, leave: 2000 }">
+	<transition name="slide-fade" mode="out-in" :duration="{ enter: 500, leave: 500 }">
 		<div :key="getCurrentIncomingMessage.text" class="incoming-msg">
 			<WaitingResponse v-if="waitForResponse || incomeMessage.length === 0"/>
 			<div v-else>
