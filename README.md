@@ -34,6 +34,9 @@ the voice interface by pointing your browser to https://localhost:8080.
 
 
 ## :gift: License
-Licensed under the GNU General Public License v3. Copyright 2018 Rasa Technologies
-GmbH. [Copy of the license](https://github.com/RasaHQ/rasa-demo/blob/master/LICENSE).
-Licensees may convey the work under this license. There is no warranty for the work.
+Licensed under the Apache License, Version 2.0.
+Copyright 2019 Rasa Technologies GmbH. [Copy of the license](LICENSE.txt).
+
+A list of the Licenses of the dependencies of the project can be found at
+the bottom of the
+[Libraries Summary](https://libraries.io/github/RasaHQ/rasa).
