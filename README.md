@@ -29,8 +29,15 @@ npm run serve
 After that, the interface will start running on port 8080 and listen to port 5005. Launch
 the voice interface by pointing your browser to https://localhost:8080.
 
+### Which ASR systems can I use with this interface?
+You can use this inerface with any ASR systems you like. We tested this interface by 
+integrating it with [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) and [Mozilla TTS](https://github.com/mozilla/TTS) components. A setp-by-step implementation of this implementation
+is documented here.
 
 ### How to connect your Rasa assistant to this interface
+To connect your own assistant to Rasa voice interface, you will need a connector. You can find an
+example implementation of a custom connector in this tutorial. To adapt the interface to your 
+project, you can change the welcome message by editing the `App.vue` and `store.js` files.
 
 
 ## :gift: License
