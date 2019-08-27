@@ -1,4 +1,4 @@
-# :microphone: Rasa Voice Interface
+# Rasa Voice Interface
 
 A simple open source web interface for building voice assistants with
 Rasa. The interface records the voice input by connecting to the microphone
