@@ -26,7 +26,8 @@ And finally start the project with:
 npm run serve
 ```
 
-After that, the interface will start running on port 8080 and listen to port 5005
+After that, the interface will start running on port 8080 and listen to port 5005. Launch
+the voice interface by pointing your browser to https://localhost:8080.
 
 
 ### How to connect your Rasa assistant to this interface
