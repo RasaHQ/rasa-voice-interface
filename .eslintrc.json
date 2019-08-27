@@ -1,0 +1,59 @@
+{
+	"root": true,
+	"parserOptions": {
+		"sourceType": "module",
+		"parser": "babel-eslint"
+	},
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"es6": true,
+		"jquery": true
+	},
+	"extends": ["airbnb/base", "prettier/standard", "plugin:vue/recommended"],
+	"plugins": ["vue"],
+	"rules": {
+		"no-param-reassign": 1,
+		"import/no-unresolved": 0,
+		"indent": [
+			2,
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"no-tabs": 0,
+		"vue/html-indent": "off",
+		"vue/html-closing-bracket-spacing": "off",
+		"vue/html-self-closing": "off",
+		"vue/singleline-html-element-content-newline": "off",
+		"vue/multiline-html-element-content-newline": "off",
+		"vue/max-attributes-per-line": "off",
+		"vue/attribute-hyphenation": "off",
+		"vue/order-in-components": "error",
+		"vue/require-prop-types": "error",
+		"vue/require-default-prop": "warn",
+		"vue/v-bind-style": "error",
+		"vue/attributes-order": "error",
+		"vue/mustache-interpolation-spacing": "error",
+		"comma-dangle": 0,
+		"arrow-parens": ["error", "as-needed"],
+		"object-curly-newline": 0,
+		"no-console": 0,
+		"max-len": [
+			"warn",
+			{
+				"code": 120,
+				"tabWidth": 4,
+				"ignoreComments": true,
+				"ignoreUrls": true,
+				"ignoreTemplateLiterals": true,
+				"ignoreRegExpLiterals": true,
+				"ignorePattern": "(d=)([^<]*|[^>]*)"
+			}
+		],
+		"object-shorthand": 0,
+		"space-before-function-paren": 0,
+		"func-names": 0
+	}
+}

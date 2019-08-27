@@ -1,0 +1,11 @@
+client/dist
+node_modules
+client/node_modules
+client/src/assets
+*.json
+*.css
+*.scss
+**/config/*.js
+src/config/*.js
+src/helpers/php-helpers.js
+cms/node_modules
