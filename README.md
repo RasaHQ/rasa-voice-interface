@@ -40,6 +40,10 @@ example implementation of a custom connector in this tutorial. To adapt the inte
 project, you can change the welcome message by editing the `App.vue` and `store.js` files.
 
 
+### Authors
+Developed by **INTEGR8** dev team, maintained by **Rasa**.
+
+
 ## :gift: License
 Licensed under the Apache License, Version 2.0.
 Copyright 2019 Rasa Technologies GmbH. [Copy of the license](LICENSE.txt).
