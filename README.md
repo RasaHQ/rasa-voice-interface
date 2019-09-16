@@ -41,7 +41,7 @@ project, you can change the welcome message by editing the `App.vue` and `store.
 
 
 ### Authors
-Developed by **INTEGR8** dev team, maintained by **Rasa**.
+Developed by [**INTEGR8**](https://www.integr8.com/) dev team, maintained by **Rasa**.
 
 
 ## :gift: License
