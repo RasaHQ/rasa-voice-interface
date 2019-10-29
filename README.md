@@ -17,8 +17,10 @@ npm
 ```
 
 
-This is how you get the interface running:
+This is how you get the interface downloaded and ready to run:
 ```
+git clone https://github.com/RasaHQ/rasa-voice-interface.git
+cd rasa-voice-interface
 npm install
 ```
 And finally start the project with:
