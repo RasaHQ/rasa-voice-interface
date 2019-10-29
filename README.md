@@ -10,11 +10,8 @@ are very welcome.
 ### 🤖 How to install and run the Rasa voice interface
 
 Necessary dependencies:
-
-```
-node
-npm
-```
+- node.js (https://nodejs.org)
+- npm (https://www.npmjs.com/)
 
 
 This is how you get the interface downloaded and ready to run:
