@@ -46,7 +46,3 @@ Developed by [**INTEGR8**](https://www.integr8.com/) dev team, maintained by **R
 ## :gift: License
 Licensed under the Apache License, Version 2.0.
 Copyright 2019 Rasa Technologies GmbH. [Copy of the license](LICENSE.txt).
-
-A list of the Licenses of the dependencies of the project can be found at
-the bottom of the
-[Libraries Summary](https://libraries.io/github/RasaHQ/rasa).
