@@ -31,11 +31,11 @@ the voice interface by pointing your browser to https://localhost:8080.
 ### Which ASR systems can you use with this interface?
 You can use this interface with any ASR systems you like. We tested this interface by 
 integrating it with [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) and [Mozilla TTS](https://github.com/mozilla/TTS) components. A step-by-step implementation of this implementation
-is documented here.
+is documented [here](https://blog.rasa.com/how-to-build-a-voice-assistant-with-open-source-rasa-and-mozilla-tools/).
 
 ### How to connect your Rasa assistant to this interface
 To connect your own assistant to Rasa voice interface, you will need a connector. You can find an
-example implementation of a custom connector in this tutorial. To adapt the interface to your 
+example implementation of a custom connector in [this tutorial](https://blog.rasa.com/how-to-build-a-voice-assistant-with-open-source-rasa-and-mozilla-tools/). To adapt the interface to your 
 project, you can change the welcome message by editing the `App.vue` and `store.js` files.
 
 
