@@ -89,12 +89,31 @@ export default {
 			this.audioContext = new AudioContext({ sampleRate: 16000 });
 			this.isRecording = true;
 			// Ask for audio device
-			navigator.getUserMedia = navigator.getUserMedia
-				|| navigator.mozGetUserMedia
-				|| navigator.webkitGetUserMedia;
-			navigator.getUserMedia({ audio: true }, vm.startUserMedia, e => {
-				console.log(`No live audio input in this browser: ${e}`);
-			});
+			// FYI: by default works only over https
+			// FYI: Chrome on android doesn't get access to getUserMedia if connection isn't encrypted
+			// FYI: either use https or manually use Experiments: 'Insecure origins treated as secure' in Chrome
+			navigator.getUserMedia = (
+					navigator.getUserMedia ||
+					navigator.webkitGetUserMedia ||
+					navigator.mozGetUserMedia ||
+					navigator.msGetUserMedia
+			);
+
+			// for old browser version - using deprecated navigator.getUserMedia
+			if (typeof navigator.mediaDevices.getUserMedia === 'undefined') {
+				navigator.getUserMedia({
+					audio: true
+				}, vm.startUserMedia, e => {
+					console.log(`No live audio input in this browser: ${e}`);
+				});
+			// for new browser version - using new navigator.mediaDevices.getUserMedia
+			} else {
+				navigator.mediaDevices.getUserMedia({
+					audio: true
+				}).then(vm.startUserMedia).catch(e => {
+					console.log(`No live audio input in this browser: ${e}`);
+				});
+			}
 		},
 		stopRecording() {
 			this.isRecording = false;
