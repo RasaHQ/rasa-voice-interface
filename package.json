@@ -16,7 +16,7 @@
 		"bootstrap": "^4.3.1",
 		"jquery": "^3.3.1",
 		"popper.js": "^1.15.0",
-		"swiper": "^4.5.0",
+		"swiper": "^6.5.1",
 		"vue": "^2.6.10",
 		"vue-markdown": "^2.2.4",
 		"vue-native-websocket": "^2.0.12",
