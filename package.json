@@ -29,7 +29,7 @@
 		"@vue/cli-plugin-babel": "^3.5.5",
 		"@vue/cli-service": "^3.5.3",
 		"eslint-plugin-vue": "^5.2.2",
-		"node-sass": "^4.12.0",
+		"node-sass": "^7.0.0",
 		"sass-loader": "^7.0.1",
 		"svg-url-loader": "^2.3.2",
 		"vue-template-compiler": "^2.6.10",
